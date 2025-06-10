@@ -1,0 +1,7 @@
+class Bike:
+    def _init_(self, color, bike_type):
+        self.color = color
+        self.bike_type = bike_type
+
+bike1 = Bike("red", "mtb")
+print("My", bike1.bike_type, "bike is", bike1.color)
